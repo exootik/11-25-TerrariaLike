@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1c64f8068e45648811f01c1f2560f0, type: 3}
+  m_Name: Mountains
+  m_EditorClassIdentifier: Assembly-CSharp::WorldParameters
+  fogDensity: 0.02
+  maxEnemies: 20
+  spawnRatePerMinute: 6
+  Worldlayers:
+  - height: 1
+    tile: {fileID: 11400000, guid: e148725898c97e549939672fbb7eba1d, type: 2}
+  - height: 2
+    tile: {fileID: 11400000, guid: 293d081ffe1817b498684070b981e6a3, type: 2}
+  - height: 5
+    tile: {fileID: 11400000, guid: 4fb72c0d3dac2f340812c0db6322c7e9, type: 2}
+  CaveDeep: 6
+  CaveHeight: 0.7
+  Frequency: 0.095
+  Persistance: 0.3
+  Octaves: 2
+  Amplitude: 30
+  Lacunarity: 5
+  type: 3
+  possibleOres:
+  - name: Iron
+    oreTile: {fileID: 11400000, guid: d09f75b284627344d878b5ba3ef4be35, type: 2}
+    minVeinSize: 4
+    maxVeinSize: 10
+    spawnChance: 0.004
+    minSpawnHeight: -150
+    maxSpawnHeight: 0
+  - name: Emerald
+    oreTile: {fileID: 11400000, guid: d4faf02a96632bf4eae6e06f5282e332, type: 2}
+    minVeinSize: 1
+    maxVeinSize: 2
+    spawnChance: 0.0015
+    minSpawnHeight: 10
+    maxSpawnHeight: 30
+  - name: Gold
+    oreTile: {fileID: 11400000, guid: 498f017048205c7449e459f1c31c1675, type: 2}
+    minVeinSize: 3
+    maxVeinSize: 10
+    spawnChance: 0.003
+    minSpawnHeight: -100
+    maxSpawnHeight: 10
+  - name: Diamond
+    oreTile: {fileID: 11400000, guid: b6513a63221a002458f0d4c4f965ad2f, type: 2}
+    minVeinSize: 2
+    maxVeinSize: 5
+    spawnChance: 0.002
+    minSpawnHeight: -100
+    maxSpawnHeight: -50
+  possibleFlores:
+  - spawnChance: 0.02
+    floreobject: {fileID: 168932793030794771, guid: 12a7d7694940bd3499f5f22eedb48b49, type: 3}
+    uniqueID: 0
+  - spawnChance: 0.5
+    floreobject: {fileID: 168932793030794771, guid: 32c77874ac1156c448a383a84b6d145f, type: 3}
+    uniqueID: 1
+  - spawnChance: 0.5
+    floreobject: {fileID: 168932793030794771, guid: 5c499b88c7afe1a4d93f012b48e28ce1, type: 3}
+    uniqueID: 2
+  - spawnChance: 0.5
+    floreobject: {fileID: 168932793030794771, guid: f247bb9a8fa4b534d86e5745c5c1d01f, type: 3}
+    uniqueID: 3
+  ParalaxImages:
+  - {fileID: -2012131973, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
+  - {fileID: -6311352213680616822, guid: a16d15f78cfb1b64bb5795dab71c7da0, type: 3}
+  - {fileID: -8010657799410552898, guid: 0b584730e27291b4ba7d1ee7f79adc98, type: 3}
+  - {fileID: 7580625972200199647, guid: ad3caf4b3d27e574a90731fd71a6aa42, type: 3}
+  sizeX: 32
+  TopColor: {r: 0, g: 0, b: 0, a: 0}
+  BottomColor: {r: 0, g: 0, b: 0, a: 0}
